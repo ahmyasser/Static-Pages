@@ -232,6 +232,7 @@ p {
     text-align: center;
     color: #fff;
     padding-bottom: 40px;
+    margin-top: 50px;
 }
 
 #testimonials .testimonial {
@@ -247,6 +248,36 @@ p {
     border-radius: 50%;
     margin-right: 20px;
     padding-bottom: 30px;
+}
+
+
+/*contact form*/
+
+#contact-form .form-group {
+    margin-bottom: 20 px;
+}
+
+#contact-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form .form-group input,
+#contact-form .form-group textarea {
+    padding: 10px;
+    width: 100%;
+    border: 1px #ccc solid;
+    border-radius: 3px;
+}
+
+#contact-form .form-group textarea {
+    height: 200px;
+}
+
+#contact-form .form-group input:focus,
+#contact-form .form-group textarea:focus {
+    outline: none;
+    border-color: sandybrown;
 }
 
 #main-footer {
